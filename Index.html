@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart V-FREE | 공간의 가치를 완성하는 공기</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <style>
+        body { font-family: 'Pretendard', sans-serif; word-break: keep-all; }
+        .hero-bg {
+            background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=2000');
+            background-size: cover;
+            background-position: center;
+        }
+        .glass-nav {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(15px);
+        }
+        .fade-in { animation: fadeInUp 1s both; }
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body class="bg-stone-50 text-slate-900 scroll-smooth">
+
+    <!-- [GNB] Tesla-style Minimal Header -->
+    <header class="fixed w-full z-50 glass-nav transition-all duration-300">
+        <nav class="max-w-7xl mx-auto px-8 py-4 flex justify-between items-center">
+            <div class="text-xl font-extrabold tracking-widest text-slate-900 uppercase">
+                Smart V-Free
+            </div>
+            <div class="hidden md:flex space-x-8 text-sm font-semibold text-slate-600 tracking-tight">
+                <a href="#vision" class="hover:text-emerald-600 transition">비전</a>
+                <a href="#tech" class="hover:text-emerald-600 transition">기술</a>
+                <a href="#benefit" class="hover:text-emerald-600 transition">경험</a>
+                <a href="#contact" class="hover:text-emerald-600 transition">문의</a>
+            </div>
+            <div class="text-sm font-bold border border-slate-900 px-5 py-2 rounded-full hover:bg-slate-900 hover:text-white transition cursor-pointer">
+                상담 예약
+            </div>
+        </nav>
+    </header>
+
+    <!-- [Hero] Tesla-style Immersive Section -->
+    <section class="hero-bg h-screen flex flex-col items-center justify-between py-24 text-white">
+        <div class="text-center mt-20 fade-in">
+            <h1 class="text-5xl md:text-7xl font-extrabold mb-6 tracking-tight">
+                공간의 완성은 공기입니다
+            </h1>
+            <p class="text-lg md:text-xl font-light opacity-90">
+                집 전체를 흐르는 무결점 살균 케어, Smart V-FREE
+            </p>
+        </div>
+        
+        <div class="w-full max-w-sm px-6 mb-12 fade-in" style="animation-delay: 0.5s;">
+            <div class="flex flex-col gap-4">
+                <button class="bg-emerald-600 hover:bg-emerald-500 text-white py-4 rounded-full font-bold transition shadow-lg">
+                    자세히 보기
+                </button>
+                <button class="bg-white/10 hover:bg-white/20 backdrop-blur-md border border-white/30 text-white py-4 rounded-full font-bold transition">
+                    시뮬레이션 신청
+                </button>
+            </div>
+            <div class="mt-10 animate-bounce text-center opacity-50">
+                <p class="text-xs uppercase tracking-[0.2em]">Scroll Down</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- [Value] Why 3040 Cares -->
+    <section id="vision" class="py-32 max-w-6xl mx-auto px-6 text-center">
+        <h2 class="text-sm font-bold text-emerald-600 uppercase tracking-widest mb-4">Innovation</h2>
+        <h3 class="text-4xl md:text-5xl font-bold mb-16 leading-tight">
+            보이지 않는 곳까지<br>완벽하게 관리하는 기술
+        </h3>
+        
+        <div class="grid md:grid-cols-3 gap-16">
+            <div class="group">
+                <div class="text-6xl font-extrabold text-stone-200 group-hover:text-emerald-500 transition-colors mb-4">01</div>
+                <h4 class="text-xl font-bold mb-3">완벽한 건식 연무</h4>
+                <p class="text-slate-500 leading-relaxed font-light">
+                    결로 걱정 없는 초미세 건식 입자로 가전 고장 위험 없이 안전하게 살균합니다.
+                </p>
+            </div>
+            <div class="group">
+                <div class="text-6xl font-extrabold text-stone-200 group-hover:text-emerald-500 transition-colors mb-4">02</div>
+                <h4 class="text-xl font-bold mb-3">에너지 세이빙</h4>
+                <p class="text-slate-500 leading-relaxed font-light">
+                    필터 수명을 2배로 연장하여 불필요한 관리 비용과 폐기물을 줄입니다.
+                </p>
+            </div>
+            <div class="group">
+                <div class="text-6xl font-extrabold text-stone-200 group-hover:text-emerald-500 transition-colors mb-4">03</div>
+                <h4 class="text-xl font-bold mb-3">AI 스마트 동기화</h4>
+                <p class="text-slate-500 leading-relaxed font-light">
+                    전열교환기와 스스로 소통하며 최적의 타이밍에 자동으로 가동됩니다.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- [Product] Tech-Minimalism Section -->
+    <section id="tech" class="bg-slate-950 py-32 overflow-hidden">
+        <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 items-center gap-20">
+            <div class="order-2 md:order-1">
+                <img src="https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&q=80&w=1000" 
+                     alt="Smart Tech" class="rounded-3xl shadow-2xl scale-110">
+            </div>
+            <div class="text-white order-1 md:order-2">
+                <h2 class="text-3xl md:text-5xl font-bold mb-8 leading-tight">
+                    단순한 환기를 넘어<br><span class="text-emerald-400">프리미엄 방역</span>으로
+                </h2>
+                <ul class="space-y-6 text-slate-400 text-lg font-light">
+                    <li class="flex items-center gap-4">
+                        <span class="w-1.5 h-1.5 bg-emerald-500 rounded-full"></span>
+                        초미세 입자(1μm)의 헤파필터 투과 기술
+                    </li>
+                    <li class="flex items-center gap-4">
+                        <span class="w-1.5 h-1.5 bg-emerald-500 rounded-full"></span>
+                        24시간 덕트 내 오염원 증식 차단
+                    </li>
+                    <li class="flex items-center gap-4">
+                        <span class="w-1.5 h-1.5 bg-emerald-500 rounded-full"></span>
+                        앱을 통한 실시간 공기질 리포팅 (준비중)
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- [Footer] Minimal Footer -->
+    <footer id="contact" class="bg-stone-50 py-24 border-t border-stone-200">
+        <div class="max-w-4xl mx-auto text-center px-6">
+            <h2 class="text-3xl font-bold mb-8">당신의 단지를 위한 스마트 솔루션</h2>
+            <p class="text-slate-500 mb-12">
+                미래 주거 공간의 표준, SMART V-FREE와 함께 파트너십을 시작하세요.
+            </p>
+            <div class="flex flex-col md:flex-row justify-center gap-4">
+                <input type="email" placeholder="이메일 주소를 입력하세요" class="px-8 py-4 rounded-full border border-stone-300 focus:outline-none focus:border-emerald-500 w-full md:w-80">
+                <button class="bg-slate-900 text-white px-10 py-4 rounded-full font-bold hover:bg-slate-800 transition">
+                    상담 신청하기
+                </button>
+            </div>
+            <div class="mt-20 text-xs text-stone-400 tracking-widest uppercase">
+                &copy; 2026 SMART V-FREE. Designed for the Future.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // 간단한 스크롤 애니메이션 효과
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('header');
+            if (window.scrollY > 50) {
+                header.classList.add('py-2', 'shadow-md');
+                header.classList.remove('py-4');
+            } else {
+                header.classList.remove('py-2', 'shadow-md');
+                header.classList.add('py-4');
+            }
+        });
+    </script>
+</body>
+</html>
